@@ -50,9 +50,13 @@ Timezone (e.g. America/Los_Angeles)
 
 # Credits
 [rednut](https://github.com/rednut/docker-unifi-controller), whose work helped me get started down the right path
+
 [umiddelb](https://github.com/umiddelb/armhf/wiki/Get-Docker-up-and-running-on-the-RaspberryPi-(ARMv6)-in-four-steps-(Wheezy)) for his instructions on getting docker installed on the rpi
+
 [resin](https://hub.docker.com/r/resin/rpi-raspbian/) for his raspbian/jessie base image
+
 [ubnt](https://help.ubnt.com/hc/en-us/articles/220066768-UniFi-Debian-Ubuntu-APT-howto) for caring about us linux folk
+
 [jacobalberty](https://github.com/jacobalberty/unifi-docker/) for his Dockerfile and instructions, of which what you see here is only a minor variation.
 
 

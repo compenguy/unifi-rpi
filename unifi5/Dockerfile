@@ -1,5 +1,9 @@
-FROM debian:jessie
-MAINTAINER Jacob Alberty <jacob.alberty@foundigital.com>
+FROM  resin/rpi-raspbian:jessie
+MAINTAINER Will Page <compenguy@gmail.com>
+# I've never created a dockerfile before
+# and Jacob Alberty's unifi container for x86/x86_64
+# seems a good base to start from
+#MAINTAINER Jacob Alberty <jacob.alberty@foundigital.com>
 
 VOLUME ["/var/lib/unifi", "/var/log/unifi", "/var/run/unifi", "/usr/lib/unifi/work"]
 
